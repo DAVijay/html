@@ -1,0 +1,25 @@
+h1{
+    
+    background: darkmagenta;
+    color: beige;
+    margin: 50px;
+    padding: 50px;
+    border: 10px double yellow;
+    border-radius: 250px;
+}
+
+p{
+    background: darkkhaki;
+    color: darkorchid;
+    height: 50px;
+    padding-left: 30px;
+    cursor:pointer;
+    transition: 3s;
+}
+
+p:hover{
+    background: lightyellow;
+    font-size: 40px;
+    color:darkblue;
+    margin-left: 60px;
+}

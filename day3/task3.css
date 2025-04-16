@@ -1,0 +1,16 @@
+#click{
+    height: 30px;
+    width: 100px;
+    background: blue;
+    color:black;
+    margin-top: 25%;
+    margin-left: 50%;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: 3s;
+}
+
+#click:hover{
+    background: yellow;
+    color:blue;
+}

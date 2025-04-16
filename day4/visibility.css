@@ -1,0 +1,10 @@
+body{
+    background: darkgreen;
+    color: white;
+}
+
+p{
+    /* opacity: 0.5;  range 0-1*/
+    /* visibility: hidden;  text hides */
+    display : none; /* text hides and  occupied area also gone */
+}

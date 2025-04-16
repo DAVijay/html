@@ -1,0 +1,14 @@
+*{
+    background: lightblue;
+}
+
+div{
+    background: green;
+    width: 50%;
+    height: 50px;
+}
+
+span{
+    color: yellow;
+    
+}

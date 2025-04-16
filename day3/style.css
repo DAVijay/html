@@ -1,0 +1,24 @@
+body{
+    color:yellow;
+    background: black;
+}
+
+p{
+    color: darkblue;
+    background: white;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#a1{
+    background: green;
+    color: black;
+}
+
+.z{
+    text-align: right;
+    color: red;
+}

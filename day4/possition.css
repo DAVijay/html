@@ -1,0 +1,37 @@
+*{
+    background : lightgray;
+  height:200vh;
+}
+
+h1{
+ text-decoration: underline;
+ position: absolute;
+}
+
+.parent{
+    width:500px;
+    height: 400px;
+    border: 1px solid blue;
+    margin-left: 20px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.one{
+    height :150px;
+    background: yellow;
+    width : 150px;
+    top:100px;
+    left:100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.two{
+    height :150px;
+    background: red;
+    width : 150px;
+    
+    position: relative;
+    z-index: 3;
+}
