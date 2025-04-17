@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <h1> Welcome to Navbar</h1>
-    <div class="topnav">
+    <div class="headline"> Welcome to Navbar</div>
+    <div class="navbar">
         <ul>
-            <li>
-                <a href="#"> Home </a>
-            </li>
-            <li>
-                <a href="#"> Languages</a>
-                <ul class="dropdrown">
-                    <li> <a href="#"> HTML </a></li>
-                    <li> <a href="#"> CSS </a></li>
-                    <li> <a href="#"> Javascript </a></li>
-                    <li> <a href="#"> JAVA </a></li>
+            <li><a href="home.html" target="_blank"> Home </a></li>
+
+            <li class="dropdown">
+                <a href="#"> Languages <i class="fa fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="#"> HTML </a></li>
+                    <li><a href="#"> CSS </a></li>
+                    <li><a href="#"> Javascript </a></li>
+                    <li><a href="#"> JAVA </a></li>
                 </ul>
             </li>
-            <li>
-                <a href="#"> About </a>
-            </li>
-            <li>
-                <a href="#"> Contact Us </a>
-            </li>
+
+            <li><a href="about.html" target="_blank"> About </a></li>
+            <li><a href="contact.html" target="_blank"> Contact Us </a></li>
         </ul>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,39 @@
+body{
+    background: green;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkred;
+    height:200px;
+    width:200px;
+    animation-duration: 5s;
+    animation-name:gfg;
+    margin-left: 50vw;
+    margin-top: 50vh;
+    animation-iteration-count: infinite;
+}
+/*
+.box:hover{
+    background: blue;
+    border-radius: 50%;
+}*/
+
+@keyframes gfg{
+    0%{
+        transform: scale(1) rotate(0deg);
+        border-radius: 0%;
+    }
+    50%{
+        transform: scale(1) rotate(180deg);
+        border-radius: 25%;
+        background: blue;
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+        border-radius: 50%;
+        background: yellow;
+    }
+}

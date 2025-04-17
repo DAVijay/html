@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to left,red,yellow,blue);
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid black;
+    height : 100vh;
+}
+
+.one{
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+.two{
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+.three{
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+.four{
+    background: green;
+    width: 100px;
+    height: 100px;
+}

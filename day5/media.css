@@ -1,0 +1,41 @@
+body {
+    background: brown;
+    color: orange;
+}
+
+#device {
+    display: none;
+}
+
+@media (min-width: 1281px) {
+    body {
+        background: red;
+        color: white;
+    }
+
+    #device.dextop {
+        display: block;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background:blue;
+        color: black;
+    }
+
+    #device.mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background: pink;
+        color: yellow;
+    }
+
+    #device.tablet {
+        display: block;
+    }
+}
