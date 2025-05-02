@@ -1,0 +1,30 @@
+body{
+    background: lightblue;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    background: black;
+    color:blue
+}
+
+button{
+    background: black;
+    color:yellow;
+    width : 100px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.night{
+    background: black;
+    color: yellow;
+}
+
+.night button{
+    background: white;
+    color: black;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed check</title>
+
+</head>
+<center>
+    <input id="speed" type="text" placeholder="Enter speed"><br>
+    <button onclick="speed()"> check </button>
+</center>
+
+
+<body>
+    <script>
+        function speed() {
+            z = document.getElementById('speed')
+            if (z.value < 40)
+                alert("very saafe")
+            else if (z.value > 40 && z.value <= 60)
+                alert("drive carfully")
+            else if (z.value >= 61 && z.value <= 70)
+                alert(" You are over speeding")
+            else if (z.value > 70)
+                alert(" see you in hospital")
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+*{
+    background: darkred;
+    color:white;
+    text-align: center;
+}
+
+h1{
+    background: black;
+}
+
+button{
+    width:100px;
+    border-radius: 20px;
+    font-size: 16px;
+    color:blue;
+    transition: 1s;
+}
+
+button:hover{
+    background: black;
+    color: yellow;
+}
