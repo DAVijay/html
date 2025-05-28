@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+
+<body>
+    <h1>Learning Object</h1>
+    <h2>My fav hobby : </h2>
+
+    <script>
+        const person = {
+            name: "Vijay",
+            age: "30",
+            isAlive: true,
+            hobbies: ["coding", "cricket", "gaming"]
+        }
+
+        let hobby = document.querySelector('h2')
+
+        hobby.textContent += person.hobbies[2]
+
+        console.table(person)
+        console.log(typeof(person))
+
+        const z = JSON.stringify(person)
+        console.log(z)
+        console.log(typeof(z))
+
+        const y = JSON.parse(z)
+        console.log(y)
+        console.log(typeof(y))
+
+    </script>
+</body>
+
+</html>

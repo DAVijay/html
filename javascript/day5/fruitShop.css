@@ -1,0 +1,24 @@
+*{
+    background: lightskyblue;
+    text-align: center;
+    color: blue;
+}
+
+div{
+    background: gray;
+    height: 100px;
+    width: 300px;
+    border-radius: 30px;
+    margin: 10px;
+    margin-left: 40%;
+    padding: 10px;
+}
+
+#b{
+    background: darkorange;
+}
+
+#c{
+    background: magenta;
+}
+
